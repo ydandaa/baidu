@@ -1,7 +1,7 @@
 #all{
 	width:100%;
 	height: 1000px;
-	background-color: pink;
+	/*background-color: pink;*/
 }
 #usrbar{
 	height: 19px;
@@ -30,4 +30,94 @@
 #pass:hover{
     background-color:#304e80;
     color: white;
+}
+#header{
+    width: 100%;
+    height: 165px;
+   /* background-color:#666;*/
+    overflow: hidden;
+}
+#logo{
+    width: 100%;
+    height: 90px;
+}
+#logo img{
+    width: 140px;
+    height: 50px;
+}
+#body{
+     width: 984px;
+     margin: 0 auto;
+     height:1111px;
+    /* background-color: red;*/
+}
+#left{
+     width: 390px;
+     height:1111px;
+    /* background-color: blue;*/
+}
+#top{
+     width: 390px;
+     height:39px;
+    /* background-color: red;*/
+}
+#top ul{
+    list-style-type: none;
+    margin: 0;
+    zoom: 1;
+}
+#top li{
+    float: left;
+    font-size: 22px;
+    margin-right: 10px;
+    color: #c5bbbb; 
+}
+#top a{
+    text-decoration: none;
+    color: #666;
+    
+}
+.c1{
+    border-bottom: 2px solid #2F63BA;
+}
+#hotnews{
+    width: 500px;
+    height: 206px;
+   /* background-color: red;*/
+}
+#hotnews ul{
+     list-style-type: none;
+     margin: 0;
+     zoom: 1;
+}
+#hotnews li{
+    margin-top: 2px;
+}
+#hotnews a{
+     text-decoration: none;
+     color: black;
+}
+.hdline0{
+   font-size: 19px;
+   margin-bottom: 8px;
+}
+.hdline1{
+   font-size: 10px;
+   margin-bottom: 22px;
+}
+.hdline2{
+   font-size: 19px;
+   margin-bottom: 8px;
+}
+.hdline3{
+   font-size: 10px;
+   margin-bottom: 22px;
+}
+.hdline4{
+   font-size: 19px;
+   margin-bottom: 8px;
+}
+.hdline5{
+   font-size: 10px;
+   margin-bottom: 22px;
 }
