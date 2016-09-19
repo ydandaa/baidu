@@ -1,0 +1,33 @@
+#all{
+	width:100%;
+	height: 1000px;
+	background-color: pink;
+}
+#usrbar{
+	height: 19px;
+    text-align: right;
+}
+#usrbar ul{
+	list-style-type: none;
+    margin: 0;
+    zoom: 1;
+}
+#usrbar li{
+	float: right;
+    margin-left: 16px;
+    color: #c5bbbb;
+}
+#usrbar a{
+    text-decoration: none;
+    color: #666;
+}
+#usrbar a:hover{
+    color: #2f3c9c;
+}
+#pass{
+    color: #304e80;
+}
+#pass:hover{
+    background-color:#304e80;
+    color: white;
+}
