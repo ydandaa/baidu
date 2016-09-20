@@ -262,7 +262,7 @@
      height:1111px;
      margin: 0;
      float: left;
-     background-color: red;
+     /*background-color: red;*/
 }
 .pic{
     width: 560px;
@@ -271,4 +271,91 @@
 .pic img{
      width: 560px;
     height:315px;
+}
+#news-hotwords{
+    width: 560px;
+    height: 224px;
+    border: 1px solid black;
+}
+#hd-line{
+    width: 560px;
+    height: 28px;
+    border: 1px solid black;
+}
+#hd-line h3{
+    margin: 3px;
+}
+#hd-line h3>a{
+    text-decoration: none;
+}
+#title-home{
+    width: 560px;
+    height: 43px;
+    border: 1px solid black;
+}
+#home-left{
+    width: 240px;
+    height: 305px;
+    float: left;
+    margin-right: 26px;
+}
+#home-right{
+    width: 290px;
+    height: 305px;
+    float: left;
+   
+}
+.ulist1{
+    list-style-type: none;
+    padding: 0;
+    border-bottom: 1px dotted #999;
+}
+.ulist1 li{
+    margin-bottom: 8px;
+}
+.ulist1 a{
+    text-decoration: none;   
+}
+.href1{
+    font-size: 15px;
+     color: black;
+}
+.href1:hover{
+    text-decoration: underline;
+    color: #3064BB;
+}
+.href2{
+    font-size: 13px;
+    float: right;
+    color: #999;
+}
+.href2:hover{
+    text-decoration: underline;
+}
+.ulist2{
+    list-style-type: none;
+    padding: 0;
+}
+.ulist2 li{
+    margin-bottom: 8px;
+}
+.ulist2 a{
+    text-decoration: none;   
+}
+.fbb{
+    width: 124px;
+    height: 130px;
+    float: left;
+}
+.fbb a{
+    text-decoration: none;
+}
+.txt1{
+    font-size: 12px;
+}
+.txt1:link{
+    text-decoration: none;
+}
+.txt1:hover{
+    background-color: blue;
 }
