@@ -134,6 +134,33 @@
     float: right;
     margin-top: 14px;
 }
+#menu{
+    width: 100%;
+    height: 30px;
+    background-color: #01204f;
+    border: 1px solid black;
+}
+#menu-mid{
+    min-width: 850px;
+    text-align: center;
+    width: 984px;
+    margin: 0 auto;
+    height: 30px;
+}
+#menu-mid div{
+    font-size: 14px;
+    margin-left: 17px;
+    height: 30px;
+    display: inline-block;
+    font-weight: bold;
+}
+#menu-mid a{
+    color: white;
+    text-decoration: none;
+}
+#menu-mid div:hover{
+    background-color: red;
+}
 #body{
      width: 1000px;
      margin: 0 auto;
