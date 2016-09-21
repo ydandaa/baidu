@@ -291,12 +291,61 @@
 #title-home{
     width: 560px;
     height: 43px;
-    border: 1px solid black;
+/*    padding: 6px 0;*/
+    border-bottom: 1px dotted #ccc;
+}
+#title-home,#title-home>div {
+        overflow: hidden;
+}
+#title-home>div{
+        float: left;
+        padding-top: 2px;
+        padding-left: 5px;
+}
+#title-home ul{
+    list-style-type: none;
+}
+#title-home li{
+        float: left;
+        padding: 0 5px;
+        border-right: 1px solid #ccc;
+        height: 18px;
+        line-height: 18px;
+}
+#title-home li a{
+        font-size: 15px;
+        color: #304e80;
+        text-decoration: none;
+}
+#title-home h3{
+        float: left;
+}
+#title-home h3 a{
+         color: #254282;
+         text-decoration: none;
+}
+#title-home span{
+          float: left;
+          font: 500 12px/18px arial,sans-serif;
+          color: #999;
+          padding-left: 10px;
+          position: relative;
+          top: 3px;
+          margin-top: 18px;
+}
+#title-home > a{
+            float: right;
+            color:#ff4200;
+            font-size: 12px;
+            text-decoration: none;
+            padding-top: 18px;
+            font-weight: 600;
 }
 #home-left{
     width: 240px;
     height: 305px;
     float: left;
+    margin-top: 15px;
     margin-right: 26px;
 }
 #home-right{
