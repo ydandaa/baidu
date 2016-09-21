@@ -465,14 +465,28 @@
     width: 560px;
     height: 215px;
     overflow: hidden;
-    border: 1px solid black;
 }
 #focu-left{
     width: 240px;
     height: 200px;
     overflow: hidden;
-    border: 1px solid black;
+    float: left;
 }
 .bai{
     font: 500 12px/18px arial,sans-serif;
+}
+#focu-right{
+    width: 290px;
+    height: 213px;
+    overflow: hidden;
+    margin-left: 26px;
+    float: left;
+}
+#focu-right div{
+    border-bottom: 1px solid #666;
+}
+#db{
+    width: 290px;
+    height: 160px;
+    overflow: hidden;
 }
