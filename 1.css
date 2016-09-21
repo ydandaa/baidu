@@ -244,6 +244,7 @@
 }
 .u1 a{
      text-decoration: none;
+     color: black;
 }
 .cl1{
     font-size: 18px;
@@ -255,7 +256,7 @@
 }
 .u1 a:hover{
     text-decoration: underline;
-    color: #888;
+    color: #3064BB;
 }
 #right{
      width: 560px;
@@ -275,18 +276,70 @@
 #news-hotwords{
     width: 560px;
     height: 224px;
-    border: 1px solid black;
 }
 #hd-line{
     width: 560px;
     height: 28px;
-    border: 1px solid black;
+    padding-top: 14px;
 }
 #hd-line h3{
-    margin: 3px;
+    float: left;
+    margin: 0;
 }
 #hd-line h3>a{
+    color: #254282;
     text-decoration: none;
+}
+#hd-line > a{
+        float: right;
+        color: #999;
+        font-size: 12px;
+        text-decoration: none;
+        padding-top: 6px;
+}
+#hd-line span{
+        font: 500 12px/18px arial,sans-serif;
+        color: #999;
+        padding-left: 10px;
+        position: relative;
+}
+.fix {
+     overflow: hidden;
+     margin-top: 5px;
+}
+.fix ul{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.fix li{
+        float: left;
+        overflow: hidden;
+        font-size: 12px;
+        text-align: center;
+        background: #3064bb;
+        width: 110px;
+        height: 88px;
+        margin: 1px;
+}
+.fix li:hover{
+         background: #85a9e8;
+}
+.fix li:first-child{
+        width: 176px;
+}
+.fix li:first-child a,.windNews .two a{
+                font-size: 16px;
+}
+.fix .two{
+        width: 156px;
+}
+.fix li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 11px;
+        line-height: 88px;
+        font-weight: 700;
 }
 #title-home{
     width: 560px;
@@ -407,4 +460,19 @@
 }
 .txt1:hover{
     background-color: blue;
+}
+#focu{
+    width: 560px;
+    height: 215px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+#focu-left{
+    width: 240px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.bai{
+    font: 500 12px/18px arial,sans-serif;
 }
