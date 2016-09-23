@@ -151,7 +151,7 @@
 #menu-mid div{
     font-size: 14px;
     padding-right: 17px;
-    height: 30px;
+    height: 29px;
     display: inline-block;
     font-weight: bold;
 }
@@ -331,7 +331,7 @@
         width: 176px;
 }
 .fix li:first-child a,.windNews .two a{
-                font-size: 16px;
+         font-size: 16px;
 }
 .fix .two{
         width: 156px;
@@ -494,20 +494,20 @@
 }
 #enter{
     position: absolute;
-   /*position: relative;*/
     width: 395px;
     top: 30px;
     left: 426px;
     height: 360px;
     z-index: 60001;
-    /*visibility: hidden;*/
-    display: none;
-    border: 1px solid black;
+    visibility: hidden;
     background-color: #fff;
 }
 #enter-head{
     width: 393px;
     height: 47px;
+}
+#enter-head button{
+	border: 0;
 }
 .mySpan{
     font-size: 25px;
@@ -590,4 +590,47 @@
 }
 #zhuce a{
     text-decoration: none;
+}
+.menu1 a{
+
+}
+.menu1 ul{
+	list-style-type: none;
+    z-index: 200;
+    height: 90px;
+    position: absolute;
+    padding: 0;
+    background-color: #01204f;
+}
+.menu1 li{
+	width: 43px;
+	line-height: 30px;
+}
+.menu1 li:hover{
+	background-color:#3064bb 
+}
+.keji{
+	display: none;
+}
+.menu1:hover .keji{
+    display: block;
+}
+.erweima{
+	width: 113px;
+    z-index: 15;
+    position: absolute;
+    top: 29px;
+    right: 111px;
+    display: none;
+}
+.ke:hover .erweima{
+	display: block;
+}
+.bg{
+	width: 100px;
+    height: 19px;
+    background: url(bg.png),no-repeat;
+    position: relative;
+    left: 275px;
+    background-position-y: 20px;
 }
