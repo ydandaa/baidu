@@ -6,6 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="1.css">
   <script type="text/javascript" defer src="1.js"></script> 
   <script type="text/javascript" defer src="2.js"></script>
+  <script src="jquery-3.0.0.js"></script>
+  <script defer src="baidu.js"></script>
 </head>
 <body>
 <div id="all">
@@ -15,7 +17,7 @@
   		<li>|</li>
   		<li class="ke">
             <a href="">百度新闻客户端</a>
-            <a href=""><img src="xinwen.png" class="erweima"></a>
+            <a href=""><img src="image/xinwen.png" class="erweima"></a>
       </li>
   		<li>|</li>
   		<li><a href="">注册</a></li>
@@ -25,7 +27,7 @@
   </div>
   <div id="header">
     <div id="logo">      
-  	    <a href=""><img src="logo.png"></a>
+  	    <a href=""><img src="image/logo.png"></a>
   	    <div id="mid">
   	    	<div id="mid1">
              <ul>
@@ -61,11 +63,34 @@
             </ul>
           </div>
           <div id="help3">
-            <img src="zui.png">
+            <img src="image/zui.png">
           </div>
         </div> 	  
     </div>
-    <div id="menu">
+      <div class="b_nav_wrap">
+          <ul class="b_nav">
+              <div class="ani_red"></div>
+              <li class="b_nav_li">首页</li>
+              <li class="b_nav_li">百家</li>
+              <li class="b_nav_li">财经</li>
+              <li class="b_nav_li">娱乐</li>
+              <li class="b_nav_li">体育</li>
+              <li class="b_nav_li">互联网</li>
+              <li class="b_nav_li">时尚</li>
+              <li class="b_nav_li">汽车</li>
+              <li class="b_nav_li">国内</li>
+              <li class="b_nav_li">国际</li>
+              <li class="b_nav_li">军事</li>
+              <li class="b_nav_li">社会</li>
+              <li class="b_nav_li">传媒</li>
+              <li class="b_nav_li">视频</li>
+              <li class="b_nav_li">个性推荐</li>
+              <li class="b_nav_li">房产</li>
+              <li class="b_nav_li">名站</li>
+              <li class="b_nav_li">更多</li>
+          </ul>
+      </div>
+    <!--<div id="menu">
       <div id="menu-mid">
         <div class="menu1 menu2"><a href="">首页</a></div>
         <div class="menu1"><a href="">百家</a></div>
@@ -84,14 +109,10 @@
         <div class="menu1"><a href="">房产</a></div>
         <div class="menu1"><a href="">名站</a></div>
         <div class="menu1"><a href="">更多</a>
-           <ul>
-             <li class="keji"><a href="">科技</a></li>
-             <li class="keji"><a href="">女人</a></li>
-             <li class="keji"><a href="">游戏</a></li>
-           </ul>
+
         </div>
       </div>
-    </div>	 
+    </div>-->
   </div>
   <div id="body">
   	 <div id="left">
@@ -106,59 +127,157 @@
   	 	</div>
   	 	<div id="hotnews">
   	 		<ul>
-  	 			<li class="hdline0"><a href=""><b>习近平致信祝贺第19届国际麻风大会开幕</b></a></li>
+  	 			<li class="hdline0">
+                    <i class="dot"></i>
+                    <a href=""><b>习近平致信祝贺第19届国际麻风大会开幕</b></a>
+                </li>
   	 			<li class="hdline1"><a href="">重温习近平的庄严宣誓  铭记历史 珍爱和平  国务院向残奥代表团致贺电</a></li>
-  	 			<li class="hdline2"><a href=""><b>李克强抵达纽约出席联合国大会  专题</b></a></li>
-  	 			<li class="hdline3"><a href="">我国首次评选表彰网络安全先进典型  网络安全博览会  专题</a></li>
-  	 			<li class="hdline4"><a href=""><b>多省公布养老金并轨细则 缴费基数有变</b></a></li>
-  	 			<li class="hdline5"><a href="">部分省公布养老金并轨细则 生活补贴计入缴费基数</a></li>
+  	 			<li class="hdline0">
+                    <i class="dot"></i>
+                    <a href=""><b>李克强抵达纽约出席联合国大会  专题</b></a>
+                </li>
+  	 			<li class="hdline1"><a href="">我国首次评选表彰网络安全先进典型  网络安全博览会  专题</a></li>
+  	 			<li class="hdline0">
+                    <i class="dot"></i>
+                    <a href=""><b>多省公布养老金并轨细则 缴费基数有变</b></a>
+                </li>
+  	 			<li class="hdline1"><a href="">部分省公布养老金并轨细则 生活补贴计入缴费基数</a></li>
   	 		</ul>
-  	 		<hr>
   	 	</div>
   	 	<ul class="u1">
-  	 		<li class="cl1"><a href=""><b>外交部证实叫停欧洲议会访华团</b></a></li>
-  	 		<li class="cl2"><a href="">上海市政府领导最新分工：应勇任常务副市长</a></li>
-  	 		<li class="cl2"><a href="">东北振兴要从四个副省级城市破局</a></li>
-  	 		<li class="cl2"><a href="">新阵地工事？太平岛出现大型神秘建筑引关注</a></li>
-  	 		<li class="cl2"><a href="">刘云山：坚持网络安全和网络发展同步推进</a></li>
-  	 		<li class="cl2"><a href="">美媒：FBI拘捕5名涉纽约曼哈顿爆炸案嫌疑人</a></li>
+  	 		<li class="cl1">
+                <span></span>
+                <a href=""><b>外交部证实叫停欧洲议会访华团</b></a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">上海市政府领导最新分工：应勇任常务副市长</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">东北振兴要从四个副省级城市破局</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">新阵地工事？太平岛出现大型神秘建筑引关注</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">刘云山：坚持网络安全和网络发展同步推进</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">美媒：FBI拘捕5名涉纽约曼哈顿爆炸案嫌疑人</a>
+            </li>
   	 	</ul>
   	 	<ul class="u1">
-  	 		<li class="cl1"><a href=""><b>亚马逊：绝对不可能出售中国电商业务</b></a></li>
-  	 		<li class="cl2"><a href="">深圳网约车司机2231人身份异常 安全问题引关注</a></li>
-  	 		<li class="cl2"><a href="">两名女学生为争男友互相厮打 其中一个不幸坠楼</a></li>
-  	 		<li class="cl2"><a href="">安徽日报社原社长遭百人实名举报：违规贱卖房产</a></li>
-  	 		<li class="cl2"><a href="">首届丝绸之路(敦煌)国际文化博览会明日开幕 快讯</a></li>
-  	 		<li class="cl2"><a href="">两部门拟规定：核电厂选址等事项应征求公众意见</a></li>
+  	 		<li class="cl1">
+                <span></span>
+                <a href=""><b>亚马逊：绝对不可能出售中国电商业务</b></a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">深圳网约车司机2231人身份异常 安全问题引关注</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">两名女学生为争男友互相厮打 其中一个不幸坠楼</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">安徽日报社原社长遭百人实名举报：违规贱卖房产</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">首届丝绸之路(敦煌)国际文化博览会明日开幕 快讯</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">两部门拟规定：核电厂选址等事项应征求公众意见</a>
+            </li>
   	 	</ul>
   	 	<ul class="u1">
-  	 		<li class="cl1"><a href=""><b>广东省奥体中心原主任李宇飞被判行贿罪</b></a></li>
-  	 		<li class="cl2"><a href="">北京:不符合规定生第三孩及以上者或缴社会抚养费</a></li>
-  	 		<li class="cl2"><a href="">阿里CEO回应“秒杀月饼”：技术该用来保护用户</a></li>
-  	 		<li class="cl2"><a href="">港媒:中国男子涉嫌在美澳洗钱被调查 曾豪赌42亿</a></li>
-  	 		<li class="cl2"><a href="">深圳一停车场3名小孩遭碾压 目击者：司机在看手机</a></li>
-  	 		<li class="cl2"><a href="">脑瘤女孩与病魔抗争5年离世 求生日志感动众网友</a></li>
+  	 		<li class="cl1">
+                <span></span>
+                <a href=""><b>广东省奥体中心原主任李宇飞被判行贿罪</b></a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">北京:不符合规定生第三孩及以上者或缴社会抚养费</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">阿里CEO回应“秒杀月饼”：技术该用来保护用户</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">港媒:中国男子涉嫌在美澳洗钱被调查 曾豪赌42亿</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">深圳一停车场3名小孩遭碾压 目击者：司机在看手机</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">脑瘤女孩与病魔抗争5年离世 求生日志感动众网友</a>
+            </li>
   	 	</ul>
   	 	<ul class="u1">
-  	 		<li class="cl1"><a href=""><b>留学朝鲜:有机会见金正恩 平时只上半天课</b></a></li>
-  	 		<li class="cl2"><a href="">广州知名酒楼被曝偷龙转凤 4000元活蟹变死蟹</a></li>
-  	 		<li class="cl2"><a href="">网友曝国行版三星Note7爆炸 三星称正在调查</a></li>
-  	 		<li class="cl2"><a href="">北大研究生公交上搭讪女子 偷录开房音频敲诈百万</a></li>
-  	 		<li class="cl2"><a href="">17岁抑郁少年网上称要自杀 民警发动“人肉”挽救</a></li>
-  	 		<li class="cl2"><a href="">男子回国参加聚会怕家人知 私自变造出入境证件</a></li>
+  	 		<li class="cl1">
+                <span></span>
+                <a href=""><b>留学朝鲜:有机会见金正恩 平时只上半天课</b></a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">广州知名酒楼被曝偷龙转凤 4000元活蟹变死蟹</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">网友曝国行版三星Note7爆炸 三星称正在调查</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">北大研究生公交上搭讪女子 偷录开房音频敲诈百万</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">17岁抑郁少年网上称要自杀 民警发动“人肉”挽救</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">男子回国参加聚会怕家人知 私自变造出入境证件</a>
+            </li>
   	 	</ul>
   	 	<ul class="u1">
-  	 		<li class="cl1"><a href=""><b>济南一小区里捡到10万现金 4天过去仍无人认领</b></a></li>
-  	 		<li class="cl2"><a href="">山东法官异地办案遭围殴 官员被指涉干预司法</a></li>
-  	 		<li class="cl2"><a href="">成都男子怕90后女友出轨 逼其穿上“铁内裤”</a></li>
-  	 		<li class="cl2"><a href="">赌球者欠债2000多万 造假11名债主同日状告自己</a></li>
-  	 		<li class="cl2"><a href="">男子疑因交通违章扣分 自制火药枪击伤他人臀部逃跑</a></li>
-  	 		<li class="cl2"><a href="">男子疲劳驾驶连撞三车 妻子为其顶包称开车见鬼</a></li>
+  	 		<li class="cl1">
+                <span></span>
+                <a href=""><b>济南一小区里捡到10万现金 4天过去仍无人认领</b></a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">山东法官异地办案遭围殴 官员被指涉干预司法</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">成都男子怕90后女友出轨 逼其穿上“铁内裤”</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">赌球者欠债2000多万 造假11名债主同日状告自己</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">男子疑因交通违章扣分 自制火药枪击伤他人臀部逃跑</a>
+            </li>
+  	 		<li class="cl2">
+                <i></i>
+                <a href="">男子疲劳驾驶连撞三车 妻子为其顶包称开车见鬼</a>
+            </li>
   	 	</ul>    
   	 </div>
   	 <div id="right">
   	 	 <div class="pic">
-  	 		 <a href=""><img src="58.jpg" id="image" id="image"></a>
+  	 		 <a href=""><img src="image/58.jpg" id="image" id="image"></a>
   	 	 </div>
        <div id="news-hotwords">
          <div id="hd-line">
@@ -195,13 +314,13 @@
        </div>
        <div id="home-left">
          <a href="">
-           <img src="tx.jpg"></a>
+           <img src="image/tx.jpg"></a>
           <div class="fbb">
-             <a href=""><img src="fbb.jpg"></a>
+             <a href=""><img src="image/fbb.jpg"></a>
              <a href="" class="txt1">花椒之夜,只有范冰冰王祖蓝还不够</a>
           </div>
-          <div>
-            <a href=""><img src="gq.jpg"></a>
+          <div style="margin-top: 15px">
+            <a href=""><img src="image/gq.jpg"></a>
             <a href="" class="txt1">中国摇滚的明天必定在校园</a>
           </div>        
        </div>
@@ -254,22 +373,22 @@
        <div id="focu">
          <div id="focu-left">
            <div>
-             <h3>
+             <h3 class="focu-left-h3">
                <span>百家聚焦</span>
                <span class="bai"> BAIJIA</span>
              </h3>            
            </div>
-           <a href=""><img src="yes.jpg" style="width: 240px;height: 141px;"></a> 
+           <a href=""><img src="image/yes.jpg" style="width: 240px;height: 141px;"></a>
          </div>
          <div id="focu-right">
            <div>
-              <h3>
+              <h3 class="focu-left-h3">
                <span>热门文章</span>
                <span class="bai">BAIJIA HOT</span>
              </h3>            
            </div>
            <div id="db">
-                <ul class="ulist1">
+                <ul class="ulist1" style="border: none;height: 140px;margin: 0;">
                     <li>
                       <a href="" class="href1">谎言与傲慢：三星Note 7爆炸是</a>
                       <a href="" class="href2">面包财经</a>
@@ -298,7 +417,7 @@
   </div>
   <div id="enter">
   <div id="enter-head">
-    <img src="baidu.png">
+    <img src="image/baidu.png">
     <span class="mySpan">登录百度账号</span>
     <div id="divbtn"><button id="btn">x</button></div>    
   </div>
@@ -323,6 +442,8 @@
 <!-- <div style="width:100px;height:19px;background:url(bg.png),no-repeat;border:1px solid;"></div> -->
 </body>
 </html>
+
+
       
     
     

@@ -1,11 +1,19 @@
+body {
+    font-family: "微软雅黑";
+    margin:0;
+    padding:0;
+    background-color: #fbfbfc;
+}
 #all{
 	width:100%;
-	height: 1280px;
+	height: 1320px;
 }
 #usrbar{
-    width: 1333px;
-	height: 19px;
+    width: 1329px;
+    height: 19px;
     text-align: right;
+    margin-top: 10px;
+    font-size: 12px;
 }
 #usrbar ul{
 	list-style-type: none;
@@ -33,27 +41,31 @@
 }
 #header{
     width: 1333px;
-    height: 165px;
+    height: 155px;
     overflow: hidden;
 }
 #logo{
     width: 945px;
     margin: 0 auto;
     height: 90px;
+    margin-bottom: 10px;
 }
 #logo img{
     width: 140px;
     height: 50px;
     float: left;
+    position: relative;
+    top: 6px;
+    left: -13px;
 }
 #mid{
-     width: 560px;
+     width: 550px;
      height: 90px;
      float: left;
 }
 #mid1{
      width: 550px;
-     height: 22px;
+     height: 25px;
 }
 #mid1 ul{
      list-style-type: none;
@@ -62,6 +74,7 @@
      overflow: hidden;
 }
 #mid1 li{
+    font-size: 14px;
      margin-right: 18px;
      float: left;
      color:black; 
@@ -78,18 +91,19 @@
      height: 35px;
 }
 #mid2 input{
-    margin-left: 15px;
     width: 433px;
     height: 27px;
 }
 #mid2 button{
     width: 100px;
     height: 33px;
+    position: relative;
+    left: -1px;
 }
 #mid3{
-     margin-left: 30px;
-     width: 490px;
-     height: 30px;
+    width: 490px;
+    height: 30px;
+    margin-top: 5px;
 }
 #mid3 a{
     text-decoration: none;
@@ -108,6 +122,7 @@
 #help2{
      width: 237px;
      height:22px;
+     margin-top: 10px;
 }
 #help2 ul{
      list-style-type: none;
@@ -117,6 +132,8 @@
 }
 #help2 li{
      float: left;
+     margin-left: 5px;
+    font-size: 12px;
 }
 #help2 a{
     font-size: 13px;
@@ -135,7 +152,53 @@
     float: right;
     margin-top: 14px;
 }
-#menu{
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.b_nav_wrap{
+    width: 100%;
+    background: #01204f;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.b_nav{
+    width: 1000px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: arial, 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, 宋体, Tahoma, Arial, Helvetica, STHeiti;
+    position: relative;
+    margin: 0 auto;
+}
+.b_nav_li{
+    display: inline-block;
+    height: 100%;
+    padding: 0 10px;
+    cursor: pointer;
+    position: relative;
+}
+.b_nav_li_active{
+    background: #cc0000;
+}
+.ani_red{
+    position: absolute;
+    left: 0;
+    background: #cc0000;
+    height: 40px;
+    padding: 0;
+    transition: left 0.3s,width 0.3s;
+    transition-timing-function: ease-in-out;
+    display: none;
+}
+
+.about{
+    margin-top: 50px;
+}
+/*#menu{
     width: 100%;
     height: 30px;
     background-color: #01204f;
@@ -164,7 +227,7 @@
 }
 .menu2{
     background-color: red;
-}
+}*/
 #body{
      width: 1000px;
      margin: 0 auto;
@@ -179,7 +242,7 @@
 #top{
      width: 390px;
      height:39px;
-     margin-left: 38px;
+     /*margin-left: 38px;*/
 }
 #top ul{
     list-style-type: none;
@@ -187,12 +250,13 @@
     zoom: 1;
     overflow: hidden;
     padding: 0px;
-    border-bottom: 1px solid #bfb3b3;
+    border-bottom: 1px solid rgb(229,229,229);
 }
 #top li{
     float: left;
-    font-size: 22px;
-    margin-right: 10px;
+    font-size: 18px;
+    margin-right: 20px;
+    padding-bottom: 10px;
     color: #c5bbbb; 
 }
 #top a{
@@ -202,9 +266,12 @@
 .c1{
     border-bottom: 2px solid #2F63BA;
 }
+
 #hotnews{
-    width: 440px;
-    height: 206px;
+    width: 390px;
+    height: 205px;
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 5px;
 }
 #hotnews ul{
      list-style-type: none;
@@ -212,35 +279,33 @@
      zoom: 1;
 }
 #hotnews li{
-    margin-top: 2px;
+    padding-left: 10px;
+    line-height: 24px;
+    color: #222;
 }
 #hotnews a{
      text-decoration: none;
      color: black;
 }
 .hdline0{
-   font-size: 19px;
-   margin-bottom: 8px;
+   font-size: 18px;
+   padding-top: 12px;
+   margin-bottom: 1px;
+}
+#hotnews .dot{
+    position: relative;
+    top: 16px;
+    left: -10px;
+    display: block;
+    width: 5px;
+    height: 5px;
+    background: #da4453;
+}
+#hotnews a:hover {
+    text-decoration: underline;
 }
 .hdline1{
-   font-size: 10px;
-   margin-bottom: 22px;
-}
-.hdline2{
-   font-size: 19px;
-   margin-bottom: 8px;
-}
-.hdline3{
-   font-size: 10px;
-   margin-bottom: 22px;
-}
-.hdline4{
-   font-size: 19px;
-   margin-bottom: 8px;
-}
-.hdline5{
-   font-size: 10px;
-   margin-bottom: 20px;
+   font-size: 12px;
 }
 .u1{
     list-style-type: none;
@@ -250,16 +315,36 @@
      color: black;
 }
 .cl1{
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 16px;
+    padding: 8px 0 5px 10px;
+}
+.cl1 span{
+    position: relative;
+    top: 15px;
+    left: -10px;
+    display: block;
+    width: 5px;
+    height: 5px;
+    background: #7195b7;
 }
 .cl2{
     font-size: 14px;
-    margin-bottom: 8px;
+    height: 27px;
+    line-height: 27px;
+    padding-left: 8px;
+}
+.cl2>i{
+    position: relative;
+    top: 15px;
+    left: -8px;
+    display: block;
+    width: 3px;
+    height: 3px;
+    background: #7195b7;
 }
 .u1 a:hover{
     text-decoration: underline;
-    color: #3064BB;
+    color: #222282;
 }
 #right{
      width: 560px;
@@ -347,15 +432,15 @@
 #title-home{
     width: 560px;
     height: 43px;
-    border-bottom: 1px dotted #ccc;
+    border-bottom: 1px solid #ccc;
 }
 #title-home,#title-home>div {
         overflow: hidden;
 }
 #title-home>div{
         float: left;
-        padding-top: 2px;
-        padding-left: 5px;
+        padding-top: 17px;
+        padding-left: 10px;
 }
 #title-home ul{
     list-style-type: none;
@@ -368,16 +453,23 @@
         line-height: 18px;
 }
 #title-home li a{
-        font-size: 15px;
+        font-size: 14px;
         color: #304e80;
         text-decoration: none;
 }
+#title-home li a:hover{
+    text-decoration: underline;
+}
 #title-home h3{
         float: left;
+    font-size: 16px;
 }
 #title-home h3 a{
          color: #254282;
          text-decoration: none;
+}
+#title-home h3 a:hover{
+    text-decoration: underline;
 }
 #title-home span{
           float: left;
@@ -386,7 +478,7 @@
           padding-left: 10px;
           position: relative;
           top: 3px;
-          margin-top: 18px;
+          margin-top: 16px;
 }
 #title-home > a{
             float: right;
@@ -398,7 +490,7 @@
 }
 #home-left{
     width: 240px;
-    height: 305px;
+    height: 335px;
     float: left;
     margin-top: 15px;
     margin-right: 26px;
@@ -407,21 +499,25 @@
     width: 290px;
     height: 305px;
     float: left;
-   
+   margin-top: 10px;
 }
 .ulist1{
     list-style-type: none;
     padding: 0;
     border-bottom: 1px dotted #999;
+    margin-bottom: 10px;
+    height: 155px;
 }
 .ulist1 li{
-    margin-bottom: 8px;
+    /*margin-bottom: 8px;*/
+    height: 28px;
+    line-height: 28px;
 }
 .ulist1 a{
     text-decoration: none;   
 }
 .href1{
-    font-size: 15px;
+    font-size: 14px;
      color: black;
 }
 .href1:hover{
@@ -429,7 +525,7 @@
     color: #3064BB;
 }
 .href2{
-    font-size: 13px;
+    font-size: 12px;
     float: right;
     color: #999;
 }
@@ -441,7 +537,9 @@
     padding: 0;
 }
 .ulist2 li{
-    margin-bottom: 8px;
+    /*margin-bottom: 8px;*/
+    height: 28px;
+    line-height: 28px;
 }
 .ulist2 a{
     text-decoration: none;   
@@ -450,6 +548,7 @@
     width: 124px;
     height: 130px;
     float: left;
+    margin-top: 15px;
 }
 .fbb a{
     text-decoration: none;
@@ -474,22 +573,27 @@
     overflow: hidden;
     float: left;
 }
+.focu-left-h3 {
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 11px;
+}
 .bai{
     font: 500 12px/18px arial,sans-serif;
 }
 #focu-right{
     width: 290px;
-    height: 213px;
+    height: 172px;
     overflow: hidden;
     margin-left: 26px;
     float: left;
 }
 #focu-right div{
-    border-bottom: 1px solid #666;
+    /*border-bottom: 1px solid #666;*/
 }
 #db{
     width: 290px;
-    height: 160px;
+    height: 140px;
     overflow: hidden;
 }
 #enter{
@@ -591,10 +695,10 @@
 #zhuce a{
     text-decoration: none;
 }
-.menu1 a{
+/*.b_nav_li a{
 
 }
-.menu1 ul{
+.b_nav_li ul{
 	list-style-type: none;
     z-index: 200;
     height: 90px;
@@ -602,19 +706,19 @@
     padding: 0;
     background-color: #01204f;
 }
-.menu1 li{
+.b_nav_li li{
 	width: 43px;
 	line-height: 30px;
 }
-.menu1 li:hover{
+.b_nav_li li:hover{
 	background-color:#3064bb 
 }
 .keji{
 	display: none;
 }
-.menu1:hover .keji{
+.b_nav_li:hover .keji{
     display: block;
-}
+}*/
 .erweima{
 	width: 113px;
     z-index: 15;
@@ -629,8 +733,9 @@
 .bg{
 	width: 100px;
     height: 19px;
-    background: url(bg.png),no-repeat;
+    background: url(image/bg.png),no-repeat;
     position: relative;
     left: 275px;
     background-position-y: 20px;
+    top: 10px;
 }
